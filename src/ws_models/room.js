@@ -2,8 +2,8 @@ import PLAYER_STATE from "../states/player.js";
 import ROOM_STATE from "../states/room.js";
 import Player from "./player.js";
 
-import fighterJSON from "../../data/fighter.js";
-import supportJSON from "../../data/support.js";
+import fighterJSON from "../../game_data/fighter.js";
+import supportJSON from "../../game_data/support.js";
 import Fighter from "./fighter.js";
 
 class Room {

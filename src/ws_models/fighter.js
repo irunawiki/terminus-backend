@@ -1,4 +1,4 @@
-import SkillJSON from "../../data/skill.js";
+import SkillJSON from "../../game_data/skill.js";
 import Skill from './skill.js';
 
 
