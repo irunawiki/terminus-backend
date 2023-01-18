@@ -1,0 +1,25 @@
+fighter stats:
+- hp
+- def
+- bhp
+- bdef
+- atk
+- batk
+- mdef
+- bmdef
+- matk
+- bmatk
+
+runChange x,y,z
+x = buff id
+y = duration (turn)
+z = enemy or self // 0 for self, 1 enemy
+
+
+state:
+paralyse: dmg decrease by 20%
+blind: critical hit rate lower 20%
+bleed: take 20% dmg each attack
+freeze: lose 1 turn
+faint: lose 1 turn
+dizzy: dmg taken increase 20%
